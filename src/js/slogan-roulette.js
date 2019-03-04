@@ -45,6 +45,10 @@
 				});
 			});
 		}
+		else
+		{
+			el.trigger('slogan-roulette-done');
+		}
 	}
 
 	$.fn.sloganRoulette = function( options ) {
